@@ -43,3 +43,4 @@ def  sqaured_function(p):
     return p
 
 print(sqaured_function(p)(3))
+print("Hello world")
