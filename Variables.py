@@ -1,20 +1,20 @@
 
-name = "John Smith"
+name =""
+age =""
 status = "Married"
-age = 31
-salary = 500000
+salary = ""
 new_applicant = True
-ApplicantLoan =100000
+ApplicantLoan ="ApplicantLoan :"
 coapplicant_loan =50000
 TotalLoanIncome =150000
 Credit_History =1.0
 
 print("List of Different Variables")
-print("Name :",name ) 
-print("Age :",age)
+print("Name :",(input(name)))
+print("Age :",int(input(age)))
 print("New or Old Applicant:",new_applicant)
-print("Salary :",salary)
-print("salary :",salary)
+print("Salary :",int(input(salary)))
+print('Staus :' ,status)
 print("new_applicant :",new_applicant)
 print("ApplicantLoan :",ApplicantLoan)
 print("coapplicant_loan :",coapplicant_loan )
