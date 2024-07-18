@@ -21,3 +21,4 @@ elif loan_amount < 500000:
 else :
     print("Sorry !")               
 
+print("***********************")
