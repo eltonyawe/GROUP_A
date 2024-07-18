@@ -28,6 +28,3 @@ json_read_data.append(new_info)
 write_json_file(json_read_data,filepath)
 print(read_json_file(filepath))
 
-filepath1 ="datasets/users.json"
-with open(filepath1,"x") as file:
-    print(file)

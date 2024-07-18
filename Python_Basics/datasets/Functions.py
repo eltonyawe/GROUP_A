@@ -108,10 +108,3 @@ def invoice (name,amount,date,):
     print("For more information cotact us on 0774935567")    
 invoice("Yawe Elton", 6000, "1/August/2024")  
 
-
-
-
-#Reversed fun()  for arranging  items in desending order
-numbers = [1000,2000,30000,40000,50000,60000,7000,800000,90000]
-numbers.reverse()
-print(numbers)

@@ -1,5 +1,5 @@
-interger =1000
-string= "Artificail_Intel"
+interger =1000000
+string= "Loan pediction App"
 boolen=True
 floati= 5.0023
 
@@ -36,8 +36,3 @@ stri = str(boolen)
 print("After Converting :",stri)
 print("Confirming class object whether it has changed")
 print(type(stri))
-
-
-
-
-print("Hello world")

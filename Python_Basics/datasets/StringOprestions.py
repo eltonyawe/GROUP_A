@@ -21,6 +21,3 @@ nam_cap ='LOAN LIMIT'
 nam_smal= nam_cap.lower()
 print(nam_smal)
 
-nam_strip ='LOAN LIMIT'
-nam_strips =nam_strip.strip("*")
-print(nam_strips)

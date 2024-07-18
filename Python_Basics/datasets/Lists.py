@@ -131,3 +131,11 @@ print(list_of_fruits)
 #Join function() it combines list items a one 
 print('\n'.join (list_of_fruits))
 
+
+
+#Reversed fun()  for arranging  items in desending order
+numbers = [1000,200,300,400,500,600,700,800,900]
+numbers.reverse()
+print(numbers)
+
+
