@@ -1,0 +1,18 @@
+import pandas as pd
+
+
+df = pd.read_csv('data.csv')
+print(df.head())
+
+
+import pandas as pd
+ 
+
+df = pd.DataFrame((
+    'Name': ['Alice', 'Bob'],
+    'Age': [30, 25],
+    'City': ['Uganda', 'Kampala']
+))
+
+
+df.to_csv('output.csv', index False)
