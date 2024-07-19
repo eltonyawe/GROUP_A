@@ -1,18 +1,38 @@
 import pandas as pd
 
 
-df = pd.read_csv('data.csv')
-print(df.head())
+# Read data from CSV file
+file_path = 'loan_data.csv'
+loan_data = pd.read_csv(file_path)
 
 
-import pandas as pd
- 
-
-df = pd.DataFrame((
-    'Name': ['Alice', 'Bob'],
-    'Age': [30, 25],
-    'City': ['Uganda', 'Kampala']
-))
+# Display the first few rows of the dataframe
+print(loan_data.head())
 
 
-df.to_csv('output.csv', index False)
+# Example: Handle missing values
+loan_data.fillna(method='ffill', inplace=True)
+
+
+# Example: Convert categorical variables to numeric
+loan_data = pd.get_dummies(loan_data, drop_first=True)
+
+
+# Save the processed data to a new CSV file
+output_file_path = 'processed_loan_data.csv'
+loan_data.to_csv(output_file_path, index=False)
+
+
+print(f"Processed data saved to {output_file_path}")
+
+
+import json
+
+
+# Read data from a JSON file
+with open('loan_data.json', 'r')
+    loan_data = json.load(file)
+
+
+# Display the data
+print(loan_data)
